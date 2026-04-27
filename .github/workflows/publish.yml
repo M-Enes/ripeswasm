@@ -22,7 +22,7 @@ jobs:
         workflow: wasm-release.yml
         branch: master
         name: Release_wasm
-        repo: mortbopet/Ripes
+        repo: M-Enes/Ripes
 
     - name: Commit and push if changed
       run: |
